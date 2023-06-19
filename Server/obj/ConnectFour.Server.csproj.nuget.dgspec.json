@@ -1,0 +1,210 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/tcg/workspace/C#-practice/ConnectFour/Server/ConnectFour.Server.csproj": {}
+  },
+  "projects": {
+    "/home/tcg/workspace/C#-practice/ConnectFour/Client/ConnectFour.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/tcg/workspace/C#-practice/ConnectFour/Client/ConnectFour.Client.csproj",
+        "projectName": "ConnectFour.Client",
+        "projectPath": "/home/tcg/workspace/C#-practice/ConnectFour/Client/ConnectFour.Client.csproj",
+        "packagesPath": "/home/tcg/.nuget/packages/",
+        "outputPath": "/home/tcg/workspace/C#-practice/ConnectFour/Client/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/tcg/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/tcg/workspace/C#-practice/ConnectFour/Shared/ConnectFour.Shared.csproj": {
+                "projectPath": "/home/tcg/workspace/C#-practice/ConnectFour/Shared/ConnectFour.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[7.0.5, 7.0.5]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "/home/tcg/workspace/C#-practice/ConnectFour/Server/ConnectFour.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/tcg/workspace/C#-practice/ConnectFour/Server/ConnectFour.Server.csproj",
+        "projectName": "ConnectFour.Server",
+        "projectPath": "/home/tcg/workspace/C#-practice/ConnectFour/Server/ConnectFour.Server.csproj",
+        "packagesPath": "/home/tcg/.nuget/packages/",
+        "outputPath": "/home/tcg/workspace/C#-practice/ConnectFour/Server/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/tcg/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/share/dotnet/sdk/7.0.302/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/tcg/workspace/C#-practice/ConnectFour/Client/ConnectFour.Client.csproj": {
+                "projectPath": "/home/tcg/workspace/C#-practice/ConnectFour/Client/ConnectFour.Client.csproj"
+              },
+              "/home/tcg/workspace/C#-practice/ConnectFour/Shared/ConnectFour.Shared.csproj": {
+                "projectPath": "/home/tcg/workspace/C#-practice/ConnectFour/Shared/ConnectFour.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/tcg/workspace/C#-practice/ConnectFour/Shared/ConnectFour.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/tcg/workspace/C#-practice/ConnectFour/Shared/ConnectFour.Shared.csproj",
+        "projectName": "ConnectFour.Shared",
+        "projectPath": "/home/tcg/workspace/C#-practice/ConnectFour/Shared/ConnectFour.Shared.csproj",
+        "packagesPath": "/home/tcg/.nuget/packages/",
+        "outputPath": "/home/tcg/workspace/C#-practice/ConnectFour/Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/tcg/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

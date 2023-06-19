@@ -1,0 +1,12 @@
+/home/tcg/workspace/C#-practice/ConnectFour/Shared/bin/Debug/net7.0/ConnectFour.Shared.deps.json
+/home/tcg/workspace/C#-practice/ConnectFour/Shared/bin/Debug/net7.0/ConnectFour.Shared.dll
+/home/tcg/workspace/C#-practice/ConnectFour/Shared/bin/Debug/net7.0/ConnectFour.Shared.pdb
+/home/tcg/workspace/C#-practice/ConnectFour/Shared/obj/Debug/net7.0/ConnectFour.Shared.csproj.AssemblyReference.cache
+/home/tcg/workspace/C#-practice/ConnectFour/Shared/obj/Debug/net7.0/ConnectFour.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/home/tcg/workspace/C#-practice/ConnectFour/Shared/obj/Debug/net7.0/ConnectFour.Shared.AssemblyInfoInputs.cache
+/home/tcg/workspace/C#-practice/ConnectFour/Shared/obj/Debug/net7.0/ConnectFour.Shared.AssemblyInfo.cs
+/home/tcg/workspace/C#-practice/ConnectFour/Shared/obj/Debug/net7.0/ConnectFour.Shared.csproj.CoreCompileInputs.cache
+/home/tcg/workspace/C#-practice/ConnectFour/Shared/obj/Debug/net7.0/ConnectFour.Shared.dll
+/home/tcg/workspace/C#-practice/ConnectFour/Shared/obj/Debug/net7.0/refint/ConnectFour.Shared.dll
+/home/tcg/workspace/C#-practice/ConnectFour/Shared/obj/Debug/net7.0/ConnectFour.Shared.pdb
+/home/tcg/workspace/C#-practice/ConnectFour/Shared/obj/Debug/net7.0/ref/ConnectFour.Shared.dll
